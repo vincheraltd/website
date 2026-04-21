@@ -181,56 +181,10 @@
       .navbar-fixed-top {
         top: auto;
       }
-        height: 11rem;
-        opacity: 1;
-             transition: all  0.5s;
-      }
-        pointer-events: none;
-        height: 0;
-        opacity: 0;
-      }
-        min-height: 11rem;
-        position:fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        background: #fff;
-        padding: 10px;
-        opacity:1;
-        z-index: 1031;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-      }
-        overflow: hidden;
-        display: -webkit-box;
-        -webkit-line-clamp: 4;
-        -webkit-box-orient: vertical;
-        animation: none;
-        visibility: visible;
-      }
-        text-decoration: underline;
-      }
-        margin: 0.3rem 0.5rem;
-        animation: none;
-        visibility: visible;
-      }
-      .navbar.opened {
-          z-index: 1032;
-      }
-        margin-top: 0.8rem;
-        font-size: 80%;
-      }
-        color: #aaa;
-      }
-
-
-      @media(max-width: 575px) {
-          height: 14rem;
-        }
-          min-height: 14rem;
-        }
-
+      /* FAQ Question Font Size - Larger than answers */
+      .panel-title-edit {
+        font-size: 1.4rem !important;
+        font-weight: 600;
       }
     </style>
   </head>
@@ -576,7 +530,7 @@
                   <div class="item-wrapper">
                     <div class="item-img mb-3">
                       <img
-                        src="assets/images/aviation.jpg"
+                        src="assets/images/aviation-new.jpg"
                         alt="Aviation Software - Flight Management and Booking Systems"
                         title="Aviation Industry Solutions"
                       />
@@ -676,7 +630,7 @@
                   <div class="item-wrapper">
                     <div class="item-img mb-3">
                       <img
-                        src="assets/images/ai-transformation.jpg"
+                        src="assets/images/education.jpg"
                         alt="Educational Software - Management Information Systems for Universities"
                         title="Educational MIS Solutions"
                       />
@@ -742,6 +696,43 @@
                 role="tablist"
                 aria-multiselectable="true"
               >
+              <div class="card">
+                  <div class="card-header" role="tab" id="headingOne">
+                    <a
+                      role="button"
+                      class="panel-title collapsed"
+                      data-toggle="collapse"
+                      data-bs-toggle="collapse"
+                      data-core=""
+                      href="#collapse3_9"
+                      aria-expanded="false"
+                      aria-controls="collapse3"
+                    >
+                      <h6
+                        class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5"
+                      >
+                        How does your offshore model work?
+                      </h6>
+                      <span
+                        class="sign mbr-iconfont mobi-mbri-arrow-down"
+                      ></span>
+                    </a>
+                  </div>
+                  <div
+                    id="collapse3_9"
+                    class="panel-collapse noScroll collapse"
+                    role="tabpanel"
+                    aria-labelledby="headingOne"
+                    data-parent="#accordion"
+                    data-bs-parent="#bootstrap-accordion_9"
+                  >
+                    <div class="panel-body">
+                      <p class="mbr-fonts-style panel-text display-7">
+                        Our offshore model combines the best of both worlds: local New Zealand presence for face-to-face meetings and strategic alignment, paired with our skilled development team in Sri Lanka for cost-effective delivery. The time zone difference (approximately 6 hours) is actually a significant advantage—while you're resting, our team continues development, effectively extending your productive hours. This means faster turnaround times and the ability to address urgent issues outside normal business hours. We maintain seamless communication through daily stand-ups, regular video conferences, and collaborative tools, ensuring you're always informed and in control of your project's progress.
+                      </p>
+                    </div>
+                  </div>
+                </div>
                 <div class="card">
                   <div class="card-header" role="tab" id="headingOne">
                     <a
@@ -774,8 +765,7 @@
                   >
                     <div class="panel-body">
                       <p class="mbr-fonts-style panel-text display-7">
-                        Our quality assurance team conducts thorough testing
-                        throughout the development process.
+                        We implement a comprehensive quality assurance framework that includes automated testing, manual code reviews, and continuous integration. Our process follows industry best practices with multiple testing phases: unit testing, integration testing, user acceptance testing, and performance testing. Every project undergoes rigorous quality checks at each milestone, ensuring deliverables meet both technical requirements and business objectives. We also maintain detailed documentation and conduct regular client reviews to ensure alignment throughout the development lifecycle.
                       </p>
                     </div>
                   </div>
@@ -812,45 +802,7 @@
                   >
                     <div class="panel-body">
                       <p class="mbr-fonts-style panel-text display-7">
-                        We specialize in ERP, finance, education, and more.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-header" role="tab" id="headingOne">
-                    <a
-                      role="button"
-                      class="panel-title collapsed"
-                      data-toggle="collapse"
-                      data-bs-toggle="collapse"
-                      data-core=""
-                      href="#collapse3_9"
-                      aria-expanded="false"
-                      aria-controls="collapse3"
-                    >
-                      <h6
-                        class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5"
-                      >
-                        How does your offshore model work?
-                      </h6>
-                      <span
-                        class="sign mbr-iconfont mobi-mbri-arrow-down"
-                      ></span>
-                    </a>
-                  </div>
-                  <div
-                    id="collapse3_9"
-                    class="panel-collapse noScroll collapse"
-                    role="tabpanel"
-                    aria-labelledby="headingOne"
-                    data-parent="#accordion"
-                    data-bs-parent="#bootstrap-accordion_9"
-                  >
-                    <div class="panel-body">
-                      <p class="mbr-fonts-style panel-text display-7">
-                        We leverage skilled Sri Lankan talent while ensuring
-                        local support.
+                        We specialize in a wide range of industries including ERP systems, finance and banking, payment processing, travel insurance, aviation, healthcare products, educational software, and death care. Our diverse experience across these sectors allows us to bring valuable insights and proven solutions to every project, regardless of the industry.
                       </p>
                     </div>
                   </div>
@@ -887,8 +839,7 @@
                   >
                     <div class="panel-body">
                       <p class="mbr-fonts-style panel-text display-7">
-                        We utilize cutting-edge AI to optimize software
-                        performance.
+                        For our daily development work, we leverage AI-powered coding assistants like GitHub Copilot and Claude to accelerate development and improve code quality. For customer projects requiring advanced AI capabilities, we have implemented machine learning frameworks such as TensorFlow and PyTorch for predictive analytics, natural language processing for chatbots and text analysis, and computer vision for image processing. Our team stays current with the latest AI advancements to deliver solutions that provide real business value.
                       </p>
                     </div>
                   </div>
@@ -908,7 +859,7 @@
                       <h6
                         class="panel-title-edit mbr-semibold mbr-fonts-style mb-0 display-5"
                       >
-                        Can we customize the software solutions?
+                        How do you handle custom requirements and project delivery?
                       </h6>
                       <span
                         class="sign mbr-iconfont mobi-mbri-arrow-down"
@@ -925,7 +876,7 @@
                   >
                     <div class="panel-body">
                       <p class="mbr-fonts-style panel-text display-7">
-                        Yes, all solutions are tailored to meet client needs.
+                        We are committed to delivering your custom requirements as quickly as possible without compromising on quality. For larger projects or complex requirements, we follow a strategic approach: first, we identify and deliver the most viable core product that addresses your immediate needs. Then, we use an iterative development process to gradually enhance and complete the full solution based on your feedback and evolving requirements. This approach ensures you get value early while maintaining flexibility for future enhancements.
                       </p>
                     </div>
                   </div>
